@@ -1,13 +1,13 @@
-// customize some Bootstrap variables
-$primary: darken(#7f078f, 20%);
-
 // the ~ allows you to reference things in node_modules
 @import "~bootstrap/scss/bootstrap";
 
+// customize some Bootstrap variables
+//$primary: darken(#7f078f, 20%);
+
 body {
-    background-color: rgb(105, 26, 231);
+    background: linear-gradient(90deg, rgb(253, 92, 92) 0%, rgb(247, 46, 46) 49%, rgb(209, 2, 2) 100%);
 }
 
 #navbar {
-    background-color: rgb(91, 6, 228);
+    background: #7f078f;
 }
