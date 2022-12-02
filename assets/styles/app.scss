@@ -2,12 +2,14 @@
 @import "~bootstrap/scss/bootstrap";
 
 // customize some Bootstrap variables
-//$primary: darken(#7f078f, 20%);
+$primary: (
+    #7f078f
+);
 
 body {
-    background: linear-gradient(90deg, rgb(253, 92, 92) 0%, rgb(247, 46, 46) 49%, rgb(209, 2, 2) 100%);
+    background: linear-gradient(90deg, rgba(248, 248, 248, 0) 0%, rgba(167, 165, 165, 0.575) 83%, rgba(156, 97, 97, 0) 100%);
 }
 
 .navbar {
-    background: #7f078f;
+    background: linear-gradient(90deg, rgb(253, 92, 92) 0%, rgb(247, 46, 46) 49%, rgb(209, 2, 2) 100%);
 }
